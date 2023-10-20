@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:map_flutter/screens/map_screen.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
 
   final screens = [
-    const Center(child: Text('Home Screen', style: TextStyle(fontSize: 45))),
+    const MapScreen(),
     const Center(
         child: Text('Favorites Screen', style: TextStyle(fontSize: 45))),
     const Center(child: Text('Search Screen', style: TextStyle(fontSize: 45))),
