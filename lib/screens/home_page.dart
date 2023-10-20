@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
     const Center(child: Text('Profile Screen', style: TextStyle(fontSize: 45))),
   ];
   final colors = [
-    Colors.cyan,
+    Colors.blue,
     Colors.purple,
     Colors.green,
-    Colors.red,
+    
   ];
 
   @override
@@ -58,12 +58,7 @@ class _HomePageState extends State<HomePage> {
               textColor: Colors.white,
             ),
             GButton(
-              icon: Icons.search,
-              iconActiveColor: Colors.white,
-              textColor: Colors.white,
-            ),
-            GButton(
-              icon: Icons.person,
+              icon: Icons.settings,
               iconActiveColor: Colors.white,
               textColor: Colors.white,
             ),
